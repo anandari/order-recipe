@@ -137,7 +137,7 @@ Request validations
 - Recipe IDs `recipe_id` should be an array of valid IDs with a maximum of 4 and is required
 - Delivery date `delivery_date` should be in format `Y-m-d` and it cannot be in the past, in next two days of date entered and is required. The requirement here was 48 hours but since `delivery_date` is estimated without time, we have considered it as 2 days instead
 
-**Ingredient listing**
+**Ingredient list to be ordered by the company**
 
 Endpoint
 
